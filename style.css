@@ -1,0 +1,37 @@
+
+
+
+.animation{
+    width: 25px;
+    height: 25px;
+    background: red;
+    animation-name: animation;
+    animation-duration: 10s;
+    position: relative;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes animation{
+    
+    0% {background-color:red; margin-top: 0px; margin-left: 0px;}
+
+     10%{background-color: yellow; margin-top: 0px; margin-left: 200px;} 
+
+    20%{background-color: blue; margin-top: 150px ; margin-left: 400px;} 
+
+    30%{background-color: green; margin-left: 600px; margin-top: 150px;}
+   
+    40%{background-color: blue; margin-top: 0px; margin-left:600px ;}
+
+    50%{background-color: cyan; margin-top: 0px; margin-left: 800px;}
+
+    60%{background-color: darkorchid; margin-top:150px ;margin-left: 1000px;}
+
+    70%{background-color: gold; margin-top:  500px ; margin-left: 800px ;}
+
+    80%{background-color:red; margin-top:  500px ; margin-left: 150px ;}
+
+    90%{background-color:fuchsia; margin-top:  500px ; margin-left: 0px ;}
+
+    100%{background-color: red; margin-bottom:  0px ; margin-left: 0px ;}
+}
